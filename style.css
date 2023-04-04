@@ -1,0 +1,25 @@
+.display__movies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin-left: 10%;
+}
+.disp__poster img{
+    height: 30rem;
+    width: 30rem;
+}
+article {
+    border: 2px solid rgb(63, 56, 56);
+    border-radius: 2rem;
+    display: grid;
+    place-items: center;
+}
+.disp__list a {
+    line-height: 1.5;
+    text-decoration: none;
+}
+.card__content {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
